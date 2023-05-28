@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: rgb(75, 75, 255);
+    --black: rgba(19, 19, 19, 0.999);
+    --white: rgb(245, 245, 245);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.393);
+    padding: 10px 15px;
+    width: 100vw;
+}
+
+.logo{
+    width: 100px;
+}
+
+.dropDownarrow{
+    width: 20px;
+}
+
+.tutorials{
+    color: var(--black);
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+}
+
+.tutorials:hover{
+    color: var(--blue);
+    transform: scale(1.1);
+}
+
+.signup{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    width: 200px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    letter-spacing: 1px;
+}
+
+.signup:hover{
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    /* transform: scaleX(2); */
+}
+
+.login{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    width: 200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    letter-spacing: 1px;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.login:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.menu{
+    display: none;
+}
