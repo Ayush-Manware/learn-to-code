@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 :root{
@@ -21,6 +22,8 @@ a{
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.393);
     padding: 10px 15px;
     width: 100vw;
+    position: sticky;
+    top: 0px;
 }
 
 .logo{
@@ -81,4 +84,32 @@ a{
 
 .menu{
     display: none;
+}
+
+
+/* banner */
+.banner{
+    background: rgb(108, 105, 184);
+    backdrop-filter: blur(10px);
+    color: var(--white);
+}
+
+.darkmode{
+    text-align: right;
+    padding: 15px 10px;
+}
+
+.banner-content{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 4vw;
+}
+
+.banner-content h2{
+    
+    margin: 10px 0px;
+}
+
+.banner-content a{
+    color: white; 
 }
